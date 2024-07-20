@@ -1,0 +1,118 @@
+.seccion-contacto{
+    background-image: linear-gradient(to bottom,rgb(16, 22, 48) , rgb(6, 8, 19) );
+    background-size: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.tit-contacto{
+    color: white;
+    text-align: center;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 40px;
+    font-weight: 450;
+    margin-left: 0px;
+}
+
+.contenedor-contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.info-tit1{
+    padding-top: 10px;
+    margin-left: 0px;
+}
+
+.info-parrafo{
+    padding-top: 10px;
+}
+
+
+.info-personal{
+    width: 520px;
+    color: white;
+    margin-left: 100px;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.telefono, .email, .ubicacion{
+    display: flex;
+    padding-top: 10px;
+}
+
+.imgtel, .imgemail, .imgubicacion{
+    width: 58px;
+    height: 58px;
+    border-radius: 17px;
+}
+
+.numerotel, .diremail, .ubi{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.formulario{ 
+    background-image: linear-gradient(to left, #3ba8f0, #5513f1, #3ba8f0);
+    background-size: 200%;
+    width: 440px;
+    color: white;
+    border: solid 1px white;
+    margin-right: 200px;
+    border-radius: 8px;
+    padding-left: 40px;
+    padding-right: 35px;
+    padding-top: 30px ;
+    padding-bottom: 54px;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.interiorform{
+    padding-bottom: 26px;
+}
+
+.icasillero{
+    background-color: rgb(16, 22, 48);
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    text-align: left;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 127px;
+    padding-left: 20px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+.icasillero:hover{
+    background-color: rgb(41, 56, 116);
+}
+
+.botonformulario{
+    color:rgb(16, 22, 48);
+    text-decoration: none;
+    padding: 16px 147px ;
+    background-color: white;
+    border-radius: 6px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 20px;
+    font-weight: 620;
+    transition: 0.7s;
+}
+
+.botonformulario:hover{
+    background-color: #7744ee ;
+    color: white;
+    
+}
+
+.icasillero { 
+    -moz-appearance:textfield; }
