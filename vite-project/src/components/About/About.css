@@ -1,0 +1,108 @@
+#about{
+    display: flex;
+    background-color: rgb(19, 28, 61);
+    padding-top: 30px;
+    padding-bottom: 120px;
+    
+   
+}
+
+#conteiner-foto{
+    width: 550px;
+    
+}
+
+#decorado{
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    border-radius: 8px;
+    border: solid 10px rgb(78, 187, 219);
+    width:350px;
+    height:470px;
+}
+
+#foto-completa{
+    
+    width:350px;
+    height:470px;
+    position: relative;
+    margin-left: 70px;
+}
+
+
+#foto {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    border-radius: 10px;
+    border: solid 1px pink;
+    width:350px;
+    height:470px;
+    background-color: pink;
+}
+
+
+#texto{
+    
+    width: 650px;
+    margin-top: 45px;
+}
+
+#text-1{
+    padding-bottom: 0px;
+    color: white;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 0px;
+}
+
+#text-2 , #parrafo{
+    color: white;
+    padding-bottom: 10px;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+
+.btn-about-1{
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    color: white;
+    background-image: linear-gradient(to left, #57b8f8, #6424fa, #57b8f8);
+    background-size: 200%;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 20px;
+    font-weight: 620;
+    transition: 0.7s;
+    border: none;
+}
+
+.btn-about-1:hover{
+    background-position: right;
+}
+
+.btn-about-2{
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    color: white;
+    background-color: rgb(16, 22, 48);
+    background-size: 200%;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 20px;
+    font-weight: 620;
+    border: solid 2px #57b8f8;
+    margin-left: 25px;
+    transition: 0.7s;
+}
+
+.btn-about-2:hover{
+    background-position: center;
+    background-color: #6424fa;
+    
+}

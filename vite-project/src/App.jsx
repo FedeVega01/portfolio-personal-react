@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
+import About  from './components/About/About'
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
     <div className='App'>
        <Navbar/>
        <Hero/>
+       <About/>
     </div>
   )
 }
