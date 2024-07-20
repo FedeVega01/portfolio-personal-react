@@ -1,0 +1,24 @@
+.card-skill{
+    
+    display: block;
+    padding: 20px;
+    width: 200px;
+    margin-top: 20px;
+    
+}
+
+.card-skill img{
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px;
+    border-radius: 9px;
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+.descripcion-skill{
+    color: white;
+    text-align: center;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 25px;
+}

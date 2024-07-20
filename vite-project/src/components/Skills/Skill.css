@@ -1,0 +1,23 @@
+.contenedor-skills{
+    background-image: linear-gradient(to top, rgb(16, 22, 48) , rgb(19, 28, 61) );
+}
+
+.contenedor-sks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 400px;
+    max-width: 800px;
+    padding-bottom: 40px;
+}
+
+.titulo-skills{
+    color: white;
+    text-align: center;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    justify-content: center;
+    margin-left: 0px;
+}
