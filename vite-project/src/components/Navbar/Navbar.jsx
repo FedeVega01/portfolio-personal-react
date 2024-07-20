@@ -3,7 +3,9 @@ import './Navbar.css'
 function Navbar (){
 
     return(
-        <div>Hola</div>
+        <div>
+            
+        </div>
 
     )
 }
