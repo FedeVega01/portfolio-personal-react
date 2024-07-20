@@ -1,0 +1,48 @@
+.container-card{
+    background-color: rgb(19, 28, 61) ;
+    border: solid 1px rgb(78, 187, 219);;
+    border-radius: 8px;
+    display: block;
+    padding: 20px;
+    width: 410px;
+    margin-top: 20px;
+}
+
+.container-card:hover{
+    background-color:#6424fa;;
+    transition: 0.6s ease-in-out;
+}
+
+.container-card img{
+    width: 45px;
+    height: 45px;
+    padding: 10px 10px;
+    border-radius: 9px;
+    background-color: white;
+    vertical-align: top;
+    margin: 20px 0;
+}
+
+.title{
+    color: white;
+    text-align: start;
+    padding-bottom: 4px;
+    padding-top: 16px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 23px;
+    margin-left: 0px;
+}
+
+.descripcion{
+    color: white;
+    text-align: start;
+    padding-bottom: 4px;
+    padding-top: 16px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 14px;
+    
+}
+
+.details{
+    display: block;
+}

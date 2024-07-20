@@ -1,0 +1,26 @@
+.contenedor-servicio{
+    background-color: rgb(19, 28, 61) ;
+    padding-bottom: 100px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 150px;
+    max-width: 1300px;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+}
