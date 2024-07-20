@@ -1,0 +1,67 @@
+#hero{
+    
+    padding-top: 80px;
+    padding-bottom: 90px;
+    background-image: linear-gradient(to bottom, rgb(13, 18, 38) , rgb(19, 28, 61) );
+}
+
+#hero h1,h2{
+    margin-left: 78px;
+}
+
+#tit-1{
+    color: rgb(134, 131, 130);
+    font-size: 43px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: 600;
+    
+}
+
+#tit-2{
+    color: white;
+    font-size: 90px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: 600;
+}
+
+#tit-3{
+    color: rgb(78, 187 , 219);
+    font-size: 43px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: 600;
+}
+
+#tit-4{
+    color: white;
+    font-size: 43px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: 600;
+}
+
+#tit-5{
+    color: rgb(78, 187 , 219);
+    font-size: 43px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: 600;
+}
+
+
+.btn-hero{
+    font-family: "Bricolage Grotesque", sans-serif;
+    border-radius: 10px;
+    padding: 23px 93px;
+    color: white;
+    background-image: linear-gradient(to left, #57b8f8, #6424fa, #57b8f8);
+    background-size: 200%;
+    margin-left: 78px;
+    font-size: 20px;
+    font-weight: 690;
+    transition: 0.8s ease-in-out;
+    margin-top: 30px;
+    border: none;
+}
+
+.btn-hero:hover{
+    background-position: right;
+    
+}
